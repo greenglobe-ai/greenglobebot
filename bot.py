@@ -2,7 +2,6 @@ import telebot
 
 # Thay token bot của bạn vào đây
 BOT_TOKEN = "8188908206:AAHzTJ21bzkDgkXXo0tfUWauGSHQXU0tZ3M"
-bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=["start", "help"])
 def send_welcome(message):
